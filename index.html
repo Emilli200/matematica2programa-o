@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais do Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Animais do Mundo</h1>
+        <p1>Olá</p1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#info">Informações</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Conheça os Animais</h2>
+        <div class="animal-list">
+            <button onclick="showAnimalInfo('leao')">Leão</button>
+            <button onclick="showAnimalInfo('elefante')">Elefante</button>
+            <button onclick="showAnimalInfo('gato')">Gato</button>
+            <button onclick="showAnimalInfo('cachorro')">Cachorro</button>
+        </div>
+    </section>
+
+    <section id="info">
+        <h2>Informações sobre o Animal</h2>
+        <div id="animal-info">
+            <!-- A informação do animal será exibida aqui via JS -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Animais do Mundo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
